@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GenelUi.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label></Label>
+            <Label></Label>
+            <Button   Clicked="Button_OnClicked" BackgroundColor="White"
+                Text="Button" FontAttributes="Bold" FontSize="20" 
+                      HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Button>
+
+            <Button BackgroundColor="White"
+            
+            Clicked="ImageButton_OnClicked"
+                Text="Image Button" FontAttributes="Bold" FontSize="20" 
+                    HorizontalOptions="FillAndExpand"></Button>
+
+            <Button BackgroundColor="White"
+            
+            Clicked="Image_OnClicked"
+                Text="Image" FontAttributes="Bold"
+                    FontSize="20" HorizontalOptions="FillAndExpand">
+            </Button>
+
+            <Button BackgroundColor="White"
+            
+            Clicked="CheckBox_OnClicked"
+                Text="CheckBox" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+            <Button BackgroundColor="White"
+            
+            Clicked="ScrollView_OnClicked"
+                Text="CheckBox" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+
+
+            <Button BackgroundColor="White"
+            
+            Clicked="SearchBar_OnClicked"
+                Text="CheckBox" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

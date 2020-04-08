@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GenelUi.Ui.ImageButton">
+    <ContentPage.Content>
+        <StackLayout>
+            <ImageButton Source="guzel_tospik.jpg" 
+                         WidthRequest="600" 
+                         HeightRequest="200" 
+                         HorizontalOptions="Center" 
+                         VerticalOptions="CenterAndExpand" 
+                         Clicked="ImageButtonTospik_OnClicked"></ImageButton>
+            <Label x:Name="image_button_label" 
+                   Text="İmage Button'a tıklandı"  
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   IsVisible="False" ></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

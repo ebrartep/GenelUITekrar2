@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GenelUi.Ui.Image">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="guzel_tospik.jpg" WidthRequest="600" HeightRequest="200" ></Image>
+            <Label  Text="Tospik" FontAttributes="Bold"
+                    FontSize="20" VerticalTextAlignment="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
