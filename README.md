@@ -7,4 +7,9 @@
 - CheckBox
 - SearchBar
 - ScrollView
+- Slider
+- Switch
+- Picker
+- BoxView
+- WebView
  
