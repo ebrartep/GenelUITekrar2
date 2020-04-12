@@ -17,3 +17,8 @@ C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\U
 C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Ui\Buttons.xaml.g.cs
 C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Ui\ScrollView.xaml.g.cs
 C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Views\SearchBarList.xaml.g.cs
+C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Ui\Slider.xaml.g.cs
+C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Ui\Switch.xaml.g.cs
+C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Ui\BoxView.xaml.g.cs
+C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Ui\Picker.xaml.g.cs
+C:\Users\Toshiba\source\repos\GenelUi\GenelUi\GenelUi\obj\Debug\netstandard2.0\Ui\WebView.xaml.g.cs

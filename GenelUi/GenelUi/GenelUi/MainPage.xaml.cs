@@ -42,5 +42,37 @@ namespace GenelUi
         {
             await Navigation.PushAsync(new Ui.ScrollView());
         }
-    }
+
+        private async void Slider_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ui.Slider());
+
+
+        }
+
+        private async void Switch_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ui.Switch());
+
+        }
+
+        private async void WebView_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ui.WebView());
+
+        }
+
+        private async void BoxView_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ui.BoxView());
+
+        }
+
+        private async void Picker_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ui.Picker());
+
+
+        }
+}
 }

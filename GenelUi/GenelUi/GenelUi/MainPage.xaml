@@ -7,47 +7,77 @@
              x:Class="GenelUi.MainPage">
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label></Label>
-            <Label></Label>
-            <Button   Clicked="Button_OnClicked" BackgroundColor="White"
+        <ScrollView>
+
+            <StackLayout>
+                <Label></Label>
+                <Label></Label>
+                <Button   Clicked="Button_OnClicked" BackgroundColor="White"
                 Text="Button" FontAttributes="Bold" FontSize="20" 
                       HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Button>
 
-            <Button BackgroundColor="White"
+                <Button BackgroundColor="White"
             
             Clicked="ImageButton_OnClicked"
                 Text="Image Button" FontAttributes="Bold" FontSize="20" 
                     HorizontalOptions="FillAndExpand"></Button>
 
-            <Button BackgroundColor="White"
+                <Button BackgroundColor="White"
             
             Clicked="Image_OnClicked"
                 Text="Image" FontAttributes="Bold"
                     FontSize="20" HorizontalOptions="FillAndExpand">
-            </Button>
+                </Button>
 
-            <Button BackgroundColor="White"
+                <Button BackgroundColor="White"
             
             Clicked="CheckBox_OnClicked"
                 Text="CheckBox" FontAttributes="Bold" 
                    FontSize="20" HorizontalOptions="FillAndExpand"></Button>
-            <Button BackgroundColor="White"
+                <Button BackgroundColor="White"
             
             Clicked="ScrollView_OnClicked"
-                Text="CheckBox" FontAttributes="Bold" 
+                Text="ScrollView" FontAttributes="Bold" 
                    FontSize="20" HorizontalOptions="FillAndExpand"></Button>
 
 
-            <Button BackgroundColor="White"
+                <Button BackgroundColor="White"
             
             Clicked="SearchBar_OnClicked"
-                Text="CheckBox" FontAttributes="Bold" 
+                Text="SearchBar" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+                <Button BackgroundColor="White"
+            
+            Clicked="Slider_OnClicked"
+                Text="Slider" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+                <Button BackgroundColor="White"
+            
+            Clicked="Switch_OnClicked"
+                Text="Switch" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+
+                <Button BackgroundColor="White"
+            
+            Clicked="WebView_OnClicked"
+                Text="WebView" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+              
+                <Button BackgroundColor="White"
+            
+            Clicked="BoxView_OnClicked"
+                Text="BoxView" FontAttributes="Bold" 
+                   FontSize="20" HorizontalOptions="FillAndExpand"></Button>
+
+                <Button BackgroundColor="White"
+            
+            Clicked="Picker_OnClicked"
+                Text="Picker" FontAttributes="Bold" 
                    FontSize="20" HorizontalOptions="FillAndExpand"></Button>
 
 
 
-
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
